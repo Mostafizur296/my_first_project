@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    font-family: 'Cairo', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.orange_highlite{
+    color: orange;
+}
+.half_width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half_width img{
+    width: 100%;
+}
+.top_banner{
+    background-image: url("images/bg.png");
+}
+section{
+    height: 300px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+.link_button{
+    text-decoration: none;
+    background-image: linear-gradient( 45deg, orange, yellow);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+}
+.drim_ara{
+    background-image: url("images/bg.png");
+    background-position: left;
+    width: 100%;
+}
+.singale_expereance{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+.expereanch_aria{
+    background-image: url("images/bg.png");
+    background-position: left;
+}
+#full_stek{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, yellow);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, orange, rgba(6, 253, 47, 0.959));
+    border-image-slice: 1;  
+}
+footer{
+    text-align: right;
+}
+
